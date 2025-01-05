@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Variables containing colors of MobileGo*/
+
+:root{
+    --main-color:#a0000a;
+    --second-color:#770008; 
+}
+.Billing-head{
+    font-family: 'Lato', sans-serif;
+}
+.billing-main{
+    margin-right: 5%;
+}
+.first-last{
+    display: flex;
+    width: 100%;
+}
+.first-name{
+    width: 100%;
+}
+.last-name{
+    margin-left: 15%;
+    width: 100%;
+}
+
+.general-m{
+    margin-top: 10px;
+}
+.house-num{
+    margin-bottom: 10px;
+}
+.Billing-container{
+    margin-top: 50px;
+}
+
+.Order-heading p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.payment_order_info{
+    box-shadow: 0px 2px 5px rgb(160, 160, 160);
+    border-radius: 1px;
+    background-color: #f0f0f0;
+}
+.product-subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.product-subtotal p{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.product_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.Subtotal-total{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.price-subtotal{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.paypal{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.MobileGo_pay{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10;
+    margin-bottom: 0;
+}
+.complete_pay{
+    font-size: 12px;
+    margin-left: 50px;
+    opacity: 0.6;
+}
+.credit_card{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.condition-terms{
+    font-size: 13px;
+    margin: 20px;
+    margin-top: 10px;
+}
+.place_order{
+    color: #fff;
+    padding: 5px;
+    margin: 20px;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: 0.5s ease;
+}
+.place_order:hover{
+    cursor: pointer;
+    background-color: var(--second-color);
+}
+
+@media only screen and (max-width:1400px){
+    .payment_order_info{
+        width: 500px;
+        margin-left: 20%;
+    }
+    .Order-heading{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width:650px){
+    .payment_order_info{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .Order-heading{
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,59 @@
+body
+{
+    background-image: url(back.jpg);
+}
+.headme{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between 5vw;
+}
+.imgme
+{  
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 4vw; 
+        
+}
+.nameme
+{
+    margin-left: 2vw;    
+}
+.call
+{
+    margin-left:75vw; 
+}
+
+.tod
+{
+    margin-left: 50vw; 
+    width: 5vw;
+}
+.words
+{
+    display: inline-flex;
+}
+.chatz
+{
+    background-color: white;
+    color: black;
+    width: 1.5vw;
+    margin-left: 2vw;
+}
+.hi2
+{
+    margin-left: 90vw;
+}
+
+.word2
+{
+    display: inline-flex;  
+    margin-left: 90vw; 
+}
+.chat2
+{
+    background-color: white;
+    color: black;
+    width: 8vw;
+    height: vw;
+}

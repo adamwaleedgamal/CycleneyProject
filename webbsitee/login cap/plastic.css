@@ -1,0 +1,113 @@
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8f8e8; /* Light green background */
+}
+
+h1 {
+    color: #146b29; 
+    margin-left: 550px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #d2fcd2; /* Light green background for products */
+}
+
+.product:hover {
+    background-color: #b7f7b7; /* Slightly darker green background on hover */
+}
+
+.product-details {
+    background-color: #fff; /* White background for product details */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.product-details h2 {
+    color: #146b29; /* Dark green text */
+}
+
+.product-details p {
+    color: #333; /* Dark text color */
+}
+#product-list
+{
+    font-size:30px;
+    margin-left: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#img
+{
+    margin-left: 30px
+}
+p{
+    margin-left:350PX;
+}
+#nn
+{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+#o
+{
+    margin-top: -370px;
+    margin-left: 990px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#c
+{
+    margin-top: -8px;
+    margin-left: 990px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#d
+{
+    margin-top: -8px;
+    margin-left: 990px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#r
+{
+    margin-top: -8px;
+    margin-left: 990px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#p{
+    margin-top: -8px;
+    margin-left: 990px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#q
+{
+    margin-top: 250px;
+    margin-left: 400px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#plas
+{
+    margin-left: 00px;
+    color: #146b29;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#bb
+{
+    background-color:green;
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+}

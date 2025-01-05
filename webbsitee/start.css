@@ -1,0 +1,32 @@
+body{
+    margin-left: 36%;
+}
+
+.logo{
+    width: 250px;
+    border-radius: 50%;
+    transition: 0.4s ease, opacity 0.4s;
+    margin-left: 5vw;
+}
+
+.logo:hover{
+    box-shadow: 0 0 40px rgb(0, 160, 48);
+    transform: scale(1.1);
+    opacity: 1;   
+}
+
+.Yes
+{
+    margin-bottom: 2vw;
+    border-radius: 16vw;
+    width: 30vw;
+    background-color: green;
+    transition: 1s ease-in;
+}
+
+.Yes:hover
+{
+    background-color: black;
+    color: green;
+    transform: scale(1.1);
+}

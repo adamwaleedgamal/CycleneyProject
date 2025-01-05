@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile GO-Home</title>
+    <link rel="stylesheet" type="text/css" href="style_home.css">
+    <link rel="stylesheet" type="text/css" href="1.3%20grid.css.css">
+    <link rel="stylesheet" href="lato_font.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+<body>
+    <header class="top">
+        <nav class="home_navbar">
+            <img class="nav_logo" src="imgs/MobileGo.png" alt="mobilego_logo">
+            <ul class="main_nav">
+                <li><a class="nav_link" href="#">Home</a></li>
+                <li><a class="nav_link" href="../store/index_store.html">Store</a></li>
+                <li><a class="nav_link" href="#offers">Offers</a></li>
+                <li><a class="nav_link" href="#features">Features</a></li>
+                <li><a class="nav_link" href="#about_us">About us</a></li>
+                <li><a class="nav_link" href="#footer">Contact us</a></li>
+            </ul>
+            <img class="profile_img" src="imgs/user.png" alt="user">
+            <a class="log_in" href="../login/index_login.html">Log in</a> 
+        </nav>
+        <div class="Main_header">
+            <video id="myVideo" autoplay muted>
+                <source src="video/home_video.webm" type="video/webm">
+            </video>
+            <div class="text-overlay">
+                <h1>OFFERS UP TO <b>25%</b> OFF</h1>
+            </div>
+            <div class="text-overlay2">
+                <h3 >+ FREE DELIVERY</h3>
+            </div>
+        </div>
+    </header>
+
+    <!--Top button-->
+    <a onclick="topFunction()" id="myBtn" title="Go to top"><img  class="arrow" src="imgs/arrow.png" alt="arrow_up"></a>
+
+    <section id="offers" class="offers_sec">
+        <div class="latest_offers row">
+            <h2>LATEST OFFERS</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="card_container">
+                    <!--Card of Samsung Galaxy S23-->
+                    <a class="card_link" href="#">
+                        <div class="card">
+                            <div class="img_container">
+                                <img class="phone_img_1" src="../store/images/SAMSUNG Galaxy (S23).jpg" alt="mobile_photo">
+                                <h1>Samsung Galaxy S23</h1>
+                            </div>
+                            <div class="price_info">
+                                <p class="price"><sup>EGP</sup>32,237<sup>00</sup></p>
+                                <p class="Last_p"><sup>EGP</sup><s>45,650</s><sup>00</sup></p> 
+                            </div>
+                            <div class="card_offer1">
+                                <p>25% OFF</p>
+                            </div>
+                            <div class="info">
+                                <p class="info_text"> Get it as soon as Tomorrow, Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card_container">
+                    <!--Card of iphone 14 pro max-->
+                    <a class="card_link" href="#">
+                        <div class="card">
+                            <div class="img_container">
+                                <img class="phone_img" src="../store/images/Apple iPhone 14 Pro Max.jpg" alt="mobile_photo">
+                                <h1>Apple iPhone 14 Pro Max Space Black</h1>
+                            </div>
+                            <div class="price_info">
+                                <p class="price"><sup>EGP</sup>38,996<sup>00</sup></p>
+                                <p class="Last_p"><sup>EGP</sup><s>51,995</s><sup>00</sup></p> 
+                            </div>
+                            <div class="card_offer">
+                                <p>25% OFF</p>
+                            </div>
+                            <div class="info">
+                                <p class="info_text"> Get it as soon as Tomorrow, Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card_container">
+                    <!--Card of Xiaomi Redmi 10-->
+                    <a class="card_link" href="#">
+                        <div class="card">
+                            <div class="img_container">
+                                <img class="phone_img_3" src="../store/images/Xiaomi Redmi Note 10 Pro.jpg" alt="mobile_photo">
+                                <h1>Xiaomi Redmi 10</h1>
+                            </div>
+                            <div class="price_info">
+                                <p class="price"><sup>EGP</sup>6,0009<sup>00</sup></p>
+                                <p class="Last_p"><sup>EGP</sup><s>7,070</s><sup>00</sup></p> 
+                            </div>
+                            <div class="card_offer3">
+                                <p>15% OFF</p>
+                            </div>
+                            <div class="info">
+                                <p class="info_text"> Get it as soon as Tomorrow, Fulfilled by Mobile GO - FREE Shipping on orders over EGP 350.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="../store/index_store.html" class="store_link">More Offers</a>
+        </div>
+    </section>
+    <section id="features" class="features_sec">
+        <div class="row features_header">
+            <h2>
+                Features
+            </h2>
+        </div>
+        <div class="row features_contaner">
+            <div class="col span-1-of-3 features_contenet">
+                <i class="fas fa-shipping-fast" style="color: #a0000a;"></i>
+                <h3>Fast Shipping</h3>
+                <p>
+                    <font color="#a0000a">-</font> fast and free shipping on all orders.
+                    <br><font color="#a0000a">-</font> You can expect your new phone to arrive at 
+                    your door in just a few days without any additional shipping fees.
+                    <br><font color="#a0000a">-</font> Order with confidence 
+                    knowing that we prioritize speedy delivery and happy customers.
+                </p>
+            </div>
+            <div class="col span-1-of-3 features_contenet">
+                <i class="fa-solid fa-calendar-check" style="color: #a0000a;"></i>
+                <h3>Up To Date</h3>
+                <p>
+                    <font color="#a0000a">-</font> Stay up to date with the latest phone models.<br>
+                    <font color="#a0000a">-</font> Our selection includes all the popular brands and models, 
+                    and we're constantly updating our inventory to ensure that you can find the phone you're looking for.
+                </p>
+            </div>
+            <div class="col span-1-of-3 features_contenet">
+                <i class="fa-solid fa-lock" style="color: #a0000a;"></i>
+                <h3>Secure Online Ordering</h3>
+                <p>
+                    <font color="#a0000a">-</font> Order with confidence knowing that your personal and payment information is always secure.<br>
+                    <font color="#a0000a">-</font> Our website is protected by the latest encryption technology, and we never share your information with third parties.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about_us" class="about_sec">
+        <div class="row">
+            <h2>ABOUT US</h2>
+        </div>
+        <div class="about_content">
+            <div class="about_text">
+                <p><font color="#a0000a">- </font>MobileGo is your one-stop-shop for the latest smartphones.<br><br>
+                    <font color="#a0000a">- </font>We're passionate about providing our customers with the best technology atcompetitive prices.<br><br>
+                    <font color="#a0000a">- </font>Our team is dedicated to offering exceptional customer service,
+                    fast and reliable shipping, and easy returns.<br><br> 
+                    <font color="#a0000a">- </font>Shop with confidence knowing that MobileGo is committed to your satisfaction.</p>
+            </div>
+            <div class="about_img">
+                <img src="imgs/MobileGo.png" alt="MobileGo">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="team_sec">
+        <div class="row team_header">
+            <h2>
+            Team. Frot-end
+            </h2>
+        </div>
+
+        
+        <div class="row all">
+          
+      
+            <div class="col span-1-of-4 team_content">
+                <img class="image" src="imgs/Adam.jpg" alt="Adam">
+                <h3>Adam Waleed</h3>
+            </div>
+            <div class="col span-1-of-4 team_content">
+                <img class="image" src="imgs/Mohamed.jpg" alt="Mohamed">
+                <h3>Mohamed Asrhaf</h3>
+            </div>
+            <div class="col span-1-of-4 team_content">
+                <img class="image" src="imgs/Asharf.jpg" alt="Asraf">
+                <h3>Asrhaf Mostafa</h3>
+            </div>
+            <div class="col span-1-of-4 team_content">
+                <img class="image" src="imgs/Mostafa.jpg" alt="Mostafa">
+                <h3>Mostafa Hatem</h3>
+            </div>
+            <div id="mm"  class="col span-1-of-4 team_content">
+                <img class="image" src="imgs/Mostafa.jpg" alt="Mostafa">
+                <h3>Marim Reda</h3>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer_sec">
+        <div class="footer">
+            <div class="footer_container">
+                <div class="footer1">
+                    <div class="footer_title">
+                        <i class="fa-solid fa-mobile" style="color: #a0000a;"></i>
+                        <h3>MobileGO</h3>
+                    </div>
+                    <div class="footer_text">
+                        <p>
+                            MobileGo Is the Biggest Telecommunication Retail chain in Egypt since 2023.
+                        </p>
+                        <p>
+                            It is offering an extremely wide range of the best telecommunications & 
+                            Accessories products, having expert and dedicated staff that are always ready to be of service to you.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <h5>Quick Links</h5>
+                    <ul class="quick_list">
+                        <li><a href="#" class="quick_links">Terms & Conditions</a></li>
+                        <li><a href="#" class="quick_links">Privacy & Policy</a></li>
+                        <li><a href="../report/report.html" class="quick_links">Report</a></li>
+                        <li><a href="#" class="quick_links">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer3">
+                    <h5>Brands</h5>
+                    <ul class="quick_list">
+                        <li><a href="#" class="quick_links">Samsung</a></li>
+                        <li><a href="#" class="quick_links">Apple</a></li>
+                        <li><a href="#" class="quick_links">Xiomi</a></li>
+                        <li><a href="#" class="quick_links">Realme</a></li>
+                        <li><a href="#" class="quick_links">Oppo</a></li>
+                        <li><a href="#" class="quick_links">Nokia</a></li>
+                        <li><a href="#" class="quick_links">Infinix</a></li>
+                    </ul>
+                </div>
+                <div class="footer4">
+                    <div class="find_us">
+                        <h5>Find Us On</h5>
+                        <div class="social">
+                            <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="insta"><i id="insta" class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h5>Contact information</h5>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>cic El-Shiekh Zayed</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Call Us: 19320</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>Email Us: info@MobileGo.Com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last">
+                <div class="copyrights">
+                    <p>&copy; 2023 MobileGo,Inc</p>
+                </div>
+                <div class="cooperators">
+                    <img src="imgs/visa.png" alt="Visa">
+                    <img class="master" src="imgs/mastercard.png" alt="Visa">
+                    <img class="valu" src="imgs/valu.png" alt="Visa">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script_home.js"></script>
+</body>
+</html>

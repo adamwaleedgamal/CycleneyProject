@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+/*-------------------Nav bar------------------*/
+.navigation{
+    box-shadow: 0px 0px 10px rgb(1, 1, 1, 0.3);
+}
+@media only screen and (min-width: 991px){
+    .main_nav a:link,
+    .main_nav a:visited {
+        padding: 4px 0px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: 400;
+        border: 1px solid transparent;
+        transition: 0.3s;
+    }
+
+    .main_nav:hover a{
+        color: rgb(171, 171, 171);
+    }
+
+    .main_nav a:hover{
+        border-bottom: 1px solid #a0000a;
+        opacity:1;
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+    }
+
+    .log_in:link,
+    .log_in:visited{
+        text-decoration: none;
+        background-color: #a0000a;
+        color: #fff;
+        padding: 2px 5px;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+
+    .log_in:hover{
+        background-color: #770008;
+    }
+}
+@media only screen and (max-width: 990px){
+    .log_in{
+        text-decoration: none;
+        color: #a0000a;
+    }
+}
+.dark-mode{
+    margin-left: 20px;
+    /* color: #1a1a1a; */
+}
+
+    /*------------Main image container-----------*/
+
+    .img_container{
+        padding: 15px;
+        display: flex;
+        
+    }
+
+    .img_container div{
+        margin: 10px;
+    }
+
+    .pictures{
+        width: 15%; 
+    }
+    .pictures img{
+        margin-bottom: 10px;
+        width: auto;
+        height: 70px;  
+        object-fit: contain;
+        cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+    .pictures img{
+       height: 50px;
+    }
+    
+  }
+
+.picture{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.picture img{
+    width: auto;
+    height: 500px;
+    object-fit: contain;
+}
+
+.img_container img{
+    width: 100%;
+    
+}
+
+.img-active{
+    border: 1px solid rgb(255, 64, 0);
+    box-shadow:0 0 10px rgba(63 0 4 / 70%), 0 0 10px rgba(63 0 4 / 70%), 0 0 10px rgba(63 0 4 / 70%);
+}
+
+#pic1{
+    margin-top: 50px;
+}
+
+/*-------------content-------------*/
+.main_container{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .main_container{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .main_container{
+        margin-top: 0;
+    }
+}
+
+/*-----content 1-----*/
+.mobile_name{
+    font-weight: 400;
+}
+
+.rating i{
+    color: #ffd500;
+}
+
+.content p{
+    margin: 0;
+}
+
+.brand_link{
+    text-decoration: none;
+}
+
+.content_hr{
+    margin-top: 0;
+}
+/*------conten 2--------*/
+
+.price_info{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info{
+    text-align: center;
+}
+.info p{
+    color:#fff;
+    margin: 10px;
+}
+.price{
+    font-size: 170%;
+    font-weight: 500;
+}
+
+.price sup{
+    font-size: 50%;
+    color: rgb(85, 85, 85);
+}
+
+.Last_p{
+    color: rgb(128, 128, 128);
+}
+
+.card_offer{
+    text-align: right;
+    color: #5bc86e;
+}
+
+.card_offer p{
+    font-size: 150%;
+}
+
+.free_r{
+    color: #a0000a;
+}
+
+.installments{
+    font-weight: 500;
+}
+
+.l_m{
+    text-decoration: none;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+
+.features p{
+    font-size: 90%;
+}
+
+.features i{
+    font-size: 140%;
+    color: #a0000a;
+    display: inline-block;
+    box-shadow: 0 0 4px #888;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.features i:hover{
+    box-shadow: 0 0 8px rgb(177, 37, 37);
+}
+
+.i1{
+    padding: 0.6em 0.5em;
+    border-radius: 50%;
+}
+
+.i2{
+    padding: 0.6em 0.5em;
+    border-radius: 50%;
+}
+
+.i3{
+    padding: 0.6em 0.7em;
+    border-radius: 50%;
+}
+
+/*-----------------Order section-------------------*/
+.order{
+    border-radius: 20px;
+    border: 1px solid rgb(193, 193, 193);
+    padding: 10px 10px;
+}
+
+.price_info2{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info2{
+    text-align: center;
+}
+.info2 p{
+    color:#fff;
+    margin: 10px;
+}
+.price2{
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.price2 sup{
+    font-size: 50%;
+    color: rgb(85, 85, 85);
+}
+
+.Last_p2{
+    color: rgb(128, 128, 128);
+    margin-bottom: 0;
+}
+
+.card_offer2{
+    text-align: right;
+    color: #5bc86e;
+}
+
+@media only screen and (max-width: 1400px) {
+    .price_info2{
+        text-align: center;
+        margin-right: 7%;
+    }
+    .card_offer2{
+        text-align: center;
+
+    }
+    .off2{
+        margin-left: 17%;
+    }
+    
+    .order{
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 990px){
+    .price_info{
+        text-align: center;
+        margin-right: 8%;
+    }
+    .card_offer{
+        text-align: center;
+        margin-left: 7%;
+    }
+    .main_text{
+        text-align: center;
+    }
+  }
+
+.card_offer2 p{
+    font-size: 125%;
+}
+
+.order .free_r{
+    font-size: 90%;
+    margin-bottom: 0;
+}
+
+.free_d{
+    font-size: 90%;
+}
+
+.order_soon{
+    font-weight: 500;
+    color: #a0000a;
+    margin-bottom: 30px;
+}
+
+.cart_div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buy_div{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order a{
+    text-decoration: none;
+}
+
+.cart_link:link,
+.cart_link:visited{
+    background-color: #ea0010;
+    color: #fff;
+    padding: 5px 43px;
+    border-radius: 13px;
+    transition: 0.2s;
+}
+
+
+
+.buy_link:link,
+.buy_link:visited{
+    background-color: #a0000a;
+    color: #fff;
+    padding: 5px 52px;
+    border-radius: 13px;
+    transition: 0.2s;
+}
+
+
+.cart_link:hover{
+    background-color: #cf000e;
+}
+
+.buy_link:hover{
+    background-color:#8f000a;
+}
+
+.last_text{
+    font-size: 80%;
+}
+
+/*------------Product details----------*/
+
+.details{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.details h4{
+    border-left: solid #a0000a 1px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
